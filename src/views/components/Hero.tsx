@@ -31,35 +31,35 @@ const Hero = () => {
       <SwiperSlide className="swiperSlide hero">
         {/* <div className="hero">
         </div> */}
-          <img className="heroImage" src="src/views/assets/Art-Dyson-flash.jpg"/>
+          <img className="heroImage" src="/assets/Art-Dyson-flash.jpg" alt="Dyson's Gallery"/>
           <h1 className="heroImageTagline">Ary-Dyson-Flash's Gallery</h1>
      </SwiperSlide>
 
       <SwiperSlide className="swiperSlide hero">
          {/* <div className="hero">
         </div> */}
-          <img className="heroImage" src="src/views/assets/Bruce-Beasley-flash.jpg" alt=""/>
+          <img className="heroImage" src="/assets/Bruce-Beasley-flash.jpg" alt="Bruce's Gallery"/>
           <h1 className="heroImageTagline">Bruce-Beasley-flash's Gallery</h1>
       </SwiperSlide>
   
       <SwiperSlide className="swiperSlide hero">
          {/* <div className="hero">
         </div> */}
-          <img className="heroImage" src="src/views/assets/Lang-Harris-flash.jpg" alt=""/>
+          <img className="heroImage" src="/assets/Lang-Harris-flash.jpg" alt="Harris' Gallery"/>
           <h1 className="heroImageTagline">Lang-Harris-flash's Gallery</h1>
       </SwiperSlide>
 
       <SwiperSlide className="swiperSlide hero">
          {/* <div className="hero">
         </div> */}
-          <img className="heroImage" src="src/views/assets/Lang-Harris-flash.jpg" alt=""/>
+          <img className="heroImage" src="/assets/Lang-Harris-flash.jpg" alt=" Harris' Gallery"/>
           <h1 className="heroImageTagline">Lang-Harris-flash's Gallery</h1>
       </SwiperSlide>
 
       <SwiperSlide className="swiperSlide hero">
          {/* <div className="hero">
         </div> */}
-          <img className="heroImage" src="src/views/assets/Olivera-flash.jpg" alt=""/>
+          <img className="heroImage" src="/assets/Olivera-flash.jpg" alt="Olivera's Gallery"/>
           <h1 className="heroImageTagline">Olivera-flash's Gallery</h1>
       </SwiperSlide>
 

@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div className="parentNavbar">
     <div className='navbar'>
-      <img className="logo" src="src/views/assets/logo.png" alt="logo"/>
+      <img className="logo" src="../assets/logo.png" alt="logo"/>
       <h1 className='hamburger' onClick={hamburgerToggle}>{hamburger}</h1>
     </div>
     {/* <Dropdown/> */}

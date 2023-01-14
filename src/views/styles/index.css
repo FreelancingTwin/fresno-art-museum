@@ -1,11 +1,11 @@
 @font-face {
-    font-family:PlayfairDisplay;
+    font-family:playfairDisplay;
     src: url('src/views/styles/fonts/PlayfairDisplay-VariableFont_wght.ttf');
 }
-@font-face {
-    font-family:GtEestiProDisplay;
+/* @font-face {
+    font-family:GT-Eesti-Pro-Display-Regular;
     src: url('src/views/styles/fonts/GT-Eesti-Pro-Display-Regular.ttf');
-}
+} */
 :root{
     background: #000;
 }

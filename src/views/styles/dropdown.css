@@ -2,7 +2,7 @@
     transition: ease-out .3s;
     height: 100vh;
     width: 100vw;
-    background: rgba(281,40,61,.3);
+    background: rgba(281,40,61,.5);
     backdrop-filter: blur(35px);
     /* visibility: hidden; */
     position: absolute;
