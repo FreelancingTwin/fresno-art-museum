@@ -1,5 +1,5 @@
 .dropdown{
-    transition: ease-out .3s;
+    transition: linear .3s;
     height: 100vh;
     width: 100vw;
     background: rgba(281,40,61,.5);
@@ -19,9 +19,13 @@
 
 .dropdown-hidden{
     /* z-index: 2; */
-    transform: translateY(0vh);
+     /* transition: ease-out .2s; */
+    /* transform: translateY(-160vh); */
     /* visibility: visible; */
-    /* height: 0vh; */
+    /* height: 0;
+    overflow: hidden;
+    display: none; */
+    transform: translateY(0vh)
 }
 
 .ul{

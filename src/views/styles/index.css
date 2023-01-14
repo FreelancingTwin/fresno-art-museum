@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family:playfairDisplay;
     src: url('src/views/styles/fonts/PlayfairDisplay-VariableFont_wght.ttf');
-}
+} */
 /* @font-face {
     font-family:GT-Eesti-Pro-Display-Regular;
     src: url('src/views/styles/fonts/GT-Eesti-Pro-Display-Regular.ttf');
@@ -24,7 +24,7 @@ body{
     max-width: 100vw;
     position: relative;
     overflow-x: hidden;
-    font-family: 'playfairDisplay', serif;
+    font-family: sans-serif;
     color: white;
     scroll-behavior: auto;
     scrollbar-width: thin;

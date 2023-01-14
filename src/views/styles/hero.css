@@ -30,7 +30,9 @@
     border-bottom: 1px solid #da283d;
     /* border: solid 1px #da283d; */
    font-size: 1.7rem;
-   font-family: 'playfairDisplay'
+   /* font-family: 'playfairDisplay' */
+   font-family: sans-serif;
+   font-weight: 100
     /* text-align: center; */
     /* align-self: center; */
 }
