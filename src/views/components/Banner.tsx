@@ -27,9 +27,10 @@ const Banner = () => {
         Monday 10 am - 10 pm
         </div>
         </SwiperSlide>
+      <SwiperSlide className="timings">Monday 10 am - 10 pm</SwiperSlide>
       <SwiperSlide className="timings">Tuesday 10 am - 10 pm</SwiperSlide>
-      <SwiperSlide className="timings">Thursday 10 am - 10 pm</SwiperSlide>
       <SwiperSlide className="timings">Wednesday 10am - 10pm</SwiperSlide>
+      <SwiperSlide className="timings">Thursday 10 am - 10 pm</SwiperSlide>
       <SwiperSlide className="timings">Friday 10 am - 10 pm</SwiperSlide>
       <SwiperSlide className="timings">Saturday 10 am - 10 pm</SwiperSlide>
       <SwiperSlide className="timings">Sunday 10 am - 10 pm</SwiperSlide>
