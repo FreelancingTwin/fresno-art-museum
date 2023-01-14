@@ -59,7 +59,8 @@
 .todaysHours{
     display: flex;
     justify-content: flex-start;
-    width: 50%;
+    /* width: max-content; */
+    max-width: 20rem;
     color: white;
     background: #000;
     text-align: left;
@@ -111,8 +112,8 @@
     background: #da283d;
 }
 
-@media (min-width: 720px){
+/* @media (min-width: 720px){
     .todaysHours{
         width: 25%
     }
-}
+} */
