@@ -17,7 +17,7 @@
 .heroImage{
     object-fit: contain;
     /* max-width: 90vw; */
-    margin: 1rem 1rem .5rem 1rem;
+    margin: 2rem 1rem .5rem 1rem;
     border: solid 1px #da283d;
     padding: 5px;
     border-radius: .3rem;

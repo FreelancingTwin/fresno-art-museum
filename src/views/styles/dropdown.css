@@ -1,12 +1,12 @@
 .dropdown{
     transition: linear .3s;
-    height: 100vh;
+    height: 500vh;
     width: 100vw;
     background: rgba(281,40,61,.5);
     backdrop-filter: blur(35px);
     /* visibility: hidden; */
     position: absolute;
-    transform: translateY(-160vh);
+    transform: translateY(-560vh);
     border-bottom: #da283d 5px solid;
     padding: 2rem;
     padding-bottom: 5rem;
