@@ -1,0 +1,118 @@
+.dropdown{
+    transition: ease-out .3s;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(281,40,61,.3);
+    backdrop-filter: blur(35px);
+    /* visibility: hidden; */
+    position: absolute;
+    transform: translateY(-160vh);
+    border-bottom: #da283d 5px solid;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    /* overflow: scroll; */
+    overflow-y: auto; 
+    scroll-behavior: auto;
+    z-index: 30; 
+    scrollbar-width: thin;
+}
+
+.dropdown-hidden{
+    /* z-index: 2; */
+    transform: translateY(0vh);
+    /* visibility: visible; */
+    /* height: 0vh; */
+}
+
+.ul{
+    /* background: #000; */
+    list-style-type: none;
+    /* height: 200vh; */
+    overflow-y: auto;
+}
+
+.list{
+    /* background: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 1rem; */
+    border-bottom: 1px solid white;
+}
+
+.list:hover, .list:active{
+    background: rgba(0,0,0,.5);
+}
+.redTriangle{
+    font-size: 3rem;
+    color:#da283d;
+    /* border: 1px white solid; */
+    border-bottom: none;
+    border-top: none;
+    text-shadow: 1px 1px 0px white;
+}
+
+.list:nth-child(-n + 1){
+    border-top: 1px solid white;
+}
+
+.todaysHours{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    color: white;
+    background: #000;
+    text-align: left;
+    height: auto;
+    padding: 1rem;
+    margin: .5rem 0;
+    vertical-align: center;
+    display: grid;
+    place-items: center;
+    border-radius: .5rem;
+    border: 1px solid #da283d;
+    font-family: 'playfairDisplay';
+
+    }
+
+.todayText{
+    width: 100%;
+
+}
+.time{
+    font-size: 2rem;
+    color: white;
+    font-family: 'GtEestiProDisplay';
+}
+
+.dropdownButtons{
+    width: 100%;
+    padding: .5rem;
+    margin: 1rem 0 .5rem 0;
+    background-color: #da283d;
+    color: white;
+    border: solid 1px white;
+    font-size: .7rem;
+    border-radius: .3rem;
+    font-family: 'palyfairDisplay'
+}
+
+.donate{
+    margin-bottom: 2rem;
+}
+
+.dropdownButtons:hover{
+    color:#da283d;
+    background: white;
+}
+
+.dropdownButtons:active{
+    color: white;
+    background: #da283d;
+}
+
+@media (min-width: 720px){
+    .todaysHours{
+        width: 25%
+    }
+}

@@ -1,0 +1,78 @@
+.programs{
+    background: #000;
+    font-family: 'playfairDisplay'
+    /* background: white; */
+    /* width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; */
+    
+
+}
+.event{
+    margin: 1rem;
+    /* width: 100%; */
+   
+}
+
+.programImage{
+    /* height: 68vh; */
+    width: 100%;
+    display: block;
+    border-radius: .3rem;
+    border: 1px solid #da283d;
+    object-fit: contain;
+}
+
+.programHeading{
+    font-size: 2rem;
+}
+
+.programDate{
+    font-size: 1.5rem;
+    border-bottom: 1px solid #da283d;
+    padding-bottom: .5rem;
+    opacity: .7;
+}
+
+.calendar{
+    border: solid 1px white;
+    text-align: center;
+
+    margin: 2rem;
+    padding: .5rem;
+   /* display: block; */
+   min-width: 50vw;
+   justify-self: center;
+   /* font-family: GtEestiProDisplay; */
+   font-weight: 100;
+    background: #da283d;
+    border-radius: .3rem;
+    transition: .1s ease;
+    font-size: .5rem;
+
+}
+.calendar:hover {
+    background: white;
+    color:#da283d;
+}
+.calendar:active{
+    background: #da283d;
+    color: white;
+}
+
+@media (min-width: 720px){
+    .programs{
+        display: inline-flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .event{
+        width: 47.4vw;
+    }
+    .calendar{
+        display: inline-block;
+        height: max-content;
+    }
+}

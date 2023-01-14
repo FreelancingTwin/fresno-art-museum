@@ -1,0 +1,26 @@
+.banner{
+    padding:.2rem;
+    /* color: aliceblue; */
+    overflow-x: hidden;
+    /* width: 100vw; */
+    background: #da283d;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.timings{
+    text-align: center;
+    font-family: GtEestiProDisplay;
+    vertical-align: center;
+    font-size: 1.5rem;
+    /* display: flex;
+    align-items: center; */
+    /* margin: 0rem .1rem; */
+    padding: .5rem;
+    /* min-width: fit-content; */
+    /* background: blue; */
+    border-right: solid 3px white;
+}

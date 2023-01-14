@@ -1,0 +1,47 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    justify-content: space-between;
+    background: #000; 
+}
+.footerBoxes{
+    margin: 1rem;
+    padding:.5rem;
+    border: 1px solid #da283d;
+    border-radius: .3rem;
+    /* width: 25vw; */
+}
+
+.visitUs{
+    
+}
+/* .connect > h1{
+    margin-left: .5rem;
+} */
+.socials{
+
+}
+.social{
+    font-size: 3rem;
+    margin: .5rem;
+}
+
+.newsletterButton{
+    color: white;
+    background: #da283d;
+    padding: 1rem;
+    border-radius: .3rem;
+    margin: 1rem 0;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    /* width: 30vw; */
+}
+.links > a{
+    color: white;
+}
+.copyright{
+    text-align: center;
+}
