@@ -18,7 +18,7 @@
     /* display: block; */
     margin-top: 1rem;
     border-radius: .3rem;
-    border: 5px solid #da283d;
+    border: 5px double #da283d;
     object-fit: contain;
     padding: .5rem;
 }
