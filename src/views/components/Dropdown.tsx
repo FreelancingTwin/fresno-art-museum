@@ -10,20 +10,20 @@ const Dropdown = () => {
       <button className='dropdownButtons donate'><h1>Donate</h1></button>
       <ul className="ul">
           <li className='list'>
-            <h1>Visit</h1>
+            <p>Visit</p>
             <RxTriangleRight className='redTriangle'/>
           </li>
-          <li className='list'><h1>Exhibitions</h1>
+          <li className='list'><p>Exhibitions</p>
             <RxTriangleRight className='redTriangle'/></li>
-          <li className='list'><h1>Programs</h1>
+          <li className='list'><p>Programs</p>
             <RxTriangleRight className='redTriangle'/></li>
-          <li className='list'><h1>Collections</h1>
+          <li className='list'><p>Collections</p>
             <RxTriangleRight className='redTriangle'/></li>
-          <li className='list'><h1>Membership</h1>
+          <li className='list'><p>Membership</p>
             <RxTriangleRight className='redTriangle'/></li>
-          <li className='list'><h1>Give</h1>
+          <li className='list'><p>Give</p>
             <RxTriangleRight className='redTriangle'/></li>
-          <li className='list'><h1>Shop</h1>
+          <li className='list'><p>Shop</p>
             <RxTriangleRight className='redTriangle'/></li>
       </ul>
 

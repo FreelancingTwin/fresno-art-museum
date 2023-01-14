@@ -12,12 +12,12 @@ const Banner = () => {
       modules={[Autoplay]}
       centeredSlides={true}
       autoplay={{
-          delay: 1500,
+          delay: 1300,
           disableOnInteraction: false,
         }}
-      speed={1500}
+      speed={2000}
       loop={true}
-      spaceBetween={5}
+      spaceBetween={0}
       slidesPerView={'auto'}
       // onSlideChange={() => console.log('slide change')}
       // onSwiper={(swiper) => console.log(swiper)}

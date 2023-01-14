@@ -18,8 +18,8 @@
     object-fit: contain;
     /* max-width: 90vw; */
     margin: 2rem 1rem .5rem 1rem;
-    border: solid 1px #da283d;
-    padding: 5px;
+    /* border: 5px double #da283d; */
+    /* padding: 5px; */
     border-radius: .3rem;
 }
 
@@ -32,7 +32,7 @@
    font-size: 1.7rem;
    /* font-family: 'playfairDisplay' */
    font-family: sans-serif;
-   font-weight: 100
-    /* text-align: center; */
+   font-weight: 100;
+    text-align: center;
     /* align-self: center; */
 }

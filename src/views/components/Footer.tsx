@@ -41,6 +41,11 @@ const footer = () => {
       <section className=" footerBoxes copyright">
           <FaCopyright/> <h6>Fresno Art Museum</h6>
       </section>
+      <section className=" footerBoxes sign">
+          <a href="https://tau-website-maker.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <h6>Site by Tau</h6>
+            </a>
+      </section>
 
     </div>
   )

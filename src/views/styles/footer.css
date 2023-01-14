@@ -45,3 +45,10 @@
 .copyright{
     text-align: center;
 }
+.sign{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.sign > a{
+    color:white;
+}

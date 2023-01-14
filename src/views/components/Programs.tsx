@@ -14,7 +14,7 @@ const programs = () => {
           <p className='programDate'>January 26 - 28, 2023</p>
       </section>
    
-        <div className="calendar"><h1>See program Calendar</h1></div>
+        <div className="calendar"><h1>Get Tickets!</h1></div>
        
       <section className="event">
           <img src="/assets/gallery/p3.jpg" alt="" className='programImage'/>
