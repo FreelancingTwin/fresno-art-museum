@@ -61,7 +61,7 @@
     border-radius: .3rem;
     transition: .1s ease;
     font-size: .7rem;
-    scroll-snap-align: end;
+    /* scroll-snap-align: none; */
     scroll-snap-stop: normal;
 
 }
