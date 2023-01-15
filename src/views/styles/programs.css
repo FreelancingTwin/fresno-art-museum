@@ -11,6 +11,7 @@
 .event{
     margin: 1rem;
     scroll-snap-align: start;
+    scroll-snap-stop: always;
     /* width: 100%; */
    
 }
@@ -60,7 +61,8 @@
     border-radius: .3rem;
     transition: .1s ease;
     font-size: .7rem;
-    scroll-snap-align: center;
+    scroll-snap-align: end;
+    scroll-snap-stop: normal;
 
 }
 .calendar:hover {
