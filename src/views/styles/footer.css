@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     background: #000; 
+    scroll-snap-align: end;
 }
 .footerBoxes{
     margin: 1rem;
@@ -13,15 +14,6 @@
     /* width: 25vw; */
 }
 
-.visitUs{
-    
-}
-/* .connect > h1{
-    margin-left: .5rem;
-} */
-.socials{
-
-}
 .social{
     font-size: 3rem;
     margin: .5rem;

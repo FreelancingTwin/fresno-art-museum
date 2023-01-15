@@ -26,7 +26,7 @@ const programs = () => {
           <p className='programHeading'>Fresno Art museum welcomes you to experience </p>
           <p className='programDate'>January 26 - 28, 2023</p>
       </section>
-      <div className="calendar"><h1>See program Calendar</h1></div>
+      <div className="calendar"><h1>See program calendar</h1></div>
      
     </div>
   )

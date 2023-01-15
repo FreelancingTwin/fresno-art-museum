@@ -1,13 +1,19 @@
-/* @font-face {
-    font-family:playfairDisplay;
-    src: url('src/views/styles/fonts/PlayfairDisplay-VariableFont_wght.ttf');
-} */
-/* @font-face {
+@font-face {
+    font-family:PlayfairDisplay;
+    src: local('PlayfairDisplay') url(src/views/styles/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+} 
+ @font-face {
     font-family:GT-Eesti-Pro-Display-Regular;
-    src: url('src/views/styles/fonts/GT-Eesti-Pro-Display-Regular.ttf');
-} */
+    src: local('GT Eesti Pro Display') url(src/views/styles/fonts/GT-Eesti-Pro-Display-Regular.ttf);
+}
 :root{
     background: #000;
+}
+
+html{
+    scroll-snap-type: y proximity;
+    /* scroll-padding: 20%; */
+    scroll-padding: 6rem;
 }
 *{
     box-sizing: border-box;
@@ -15,8 +21,9 @@
     padding: 0;
     border: none;
     scrollbar-width: none;
+    /* scroll-snap-type: none; */
     /* scrollbar-width: thin; */
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 
 body{
@@ -24,8 +31,10 @@ body{
     max-width: 100vw;
     position: relative;
     overflow-x: hidden;
-    font-family: sans-serif;
+    font-family: PlayfairDisplay, sans-serif;
     color: white;
     scroll-behavior: auto;
     scrollbar-width: thin;
+    scroll-snap-type: y proximity;
+    scroll-padding: 6rem;
 }
