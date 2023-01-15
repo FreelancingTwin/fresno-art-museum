@@ -2,16 +2,16 @@
     background: #000;
     font-weight: 100;
     /* font-family: 'playfairDisplay' */
-        scroll-snap-type: y mandatory;
-    scroll-padding: 10%
+        /* scroll-snap-type: y mandatory;
+    scroll-padding: 10% */
    
     
 
 }
 .event{
     margin: 1rem;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
+    /* scroll-snap-align: start; */
+    /* scroll-snap-stop: always; */
     /* width: 100%; */
    
 }
