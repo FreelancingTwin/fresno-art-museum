@@ -1,23 +1,23 @@
 .dropdown{
     transition: cubic-bezier(0.39, 0.575, 0.565, 1) .3s;
     width: 100vw;
-    background: rgba(281,40,61,.1);
+    height: 80vh;
+    background: rgba(281,40,61,.2);
     backdrop-filter: blur(35px);
     /* visibility: hidden; */
     position: absolute;
-    transform: translateY(-100vh);
+    transform: translateY(-200vh);
     border-bottom: #da283d 5px solid;
     padding: 2rem;
     padding-bottom: 5rem;
     overflow-y: auto; 
     scroll-behavior: smooth;
     z-index: 30; 
-    scale: 1;
     border-radius: 0 0 1rem 1rem;
 }
 
 .dropdown-hidden{
-    transform: translateY(-50vh);
+    transform: translateY(0vh);
 }
 
 .ul{
