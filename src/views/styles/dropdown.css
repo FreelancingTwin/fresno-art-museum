@@ -17,7 +17,7 @@
 }
 
 .dropdown-hidden{
-    transform: translateY(0vh);
+    transform: translateY(-50vh);
 }
 
 .ul{
