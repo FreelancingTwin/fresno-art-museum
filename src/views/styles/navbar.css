@@ -4,13 +4,15 @@
     margin: 0;
     top: 0;
     height: 6rem;
+
     /* background: rgba(0, 0, 0, .5); */
+    /* background:green; */
 }
 
 .navbar{
     background: rgba(0, 0, 0, .5);
     backdrop-filter: blur(25px);
-    color: white;
+    height: 100%;
     width: 100vw;
     display: flex;
     justify-content: space-between;
