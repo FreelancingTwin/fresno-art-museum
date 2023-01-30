@@ -52,7 +52,7 @@ After running that, you'll have a new folder called build in the top. Now that's
 </ul>
 
 **Known bugs:**
-I want the site to not scroll when I use the dropdown menu. I do have a workaround of positioning the div absolute, but still, it scrolls in the background. Still thinking... If you know a better solution, or have a suggestion, message me at my twitter @katkawpose https://twitter.com/KatKawPose saying 'Hey, I checked your fam project, I know how to fix the dropdown better! Would save ya a million dollars.'
+I want the site to not scroll when I use the dropdown menu. I do have a workaround of positioning the div absolute, but still, it scrolls in the background. Still thinking. If you know a better solution, or have a suggestion, message me at my twitter @katkawpose https://twitter.com/KatKawPose saying 'Hey, I checked your fam project, I know how to fix the dropdown better! Would save ya a million dollars.'
 
 ## Optimizations
 
@@ -76,9 +76,13 @@ At first I used a relatively unknown CDN to import fonts, but that dragged the l
 ## Lessons Learned:
 
 Learned to use props and keys to recognize components from the DOM, instead of classes.
+
 Learned more Typescript!
+
 Refined my CSS. Learned to use Object-fit property in CSS to make divs the perfect size of images.
+
 Learned a new library: Swiper.js!
+
 More freelancing ftw.
 
 ## Also, check some of my other projects:
